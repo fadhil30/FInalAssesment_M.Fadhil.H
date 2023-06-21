@@ -62,13 +62,13 @@ class HomeView extends StatelessWidget {
                         const SizedBox(
                           height: 15,
                         ),
-                        Text(
+                        const Text(
                           'Result : ',
                           style: TextStyle(
                               fontSize: 16, fontWeight: FontWeight.normal),
                         ),
                         const SizedBox(
-                          height: 20,
+                          height: 15,
                         ),
                         buildResultFormWigdet(state.conditions, state)
                       ],
@@ -82,4 +82,3 @@ class HomeView extends StatelessWidget {
     );
   }
 }
-

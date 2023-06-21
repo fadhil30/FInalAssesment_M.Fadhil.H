@@ -21,7 +21,9 @@ class InputFormWidget extends StatelessWidget {
       },
       controller: state.numController,
       keyboardType: TextInputType.number,
-      decoration: InputDecoration(
+      decoration: const InputDecoration(
+          enabledBorder:
+              OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
           border:
               OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
           hintText: 'Input Number',
